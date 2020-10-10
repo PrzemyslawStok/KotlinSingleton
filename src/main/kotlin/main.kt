@@ -1,4 +1,8 @@
 fun main(){
+
+}
+
+fun studentsExample(){
     val students = mutableListOf<Student>()
 
     Student.id = 5
