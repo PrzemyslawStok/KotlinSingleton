@@ -1,5 +1,11 @@
 fun main(){
+    val classrom42 = ClassRoom(42)
+    val classrom41 = ClassRoom(41)
 
+    classrom42.setServerId()
+
+    classrom42.printClassrom()
+    classrom41.printClassrom()
 }
 
 fun studentsExample(){

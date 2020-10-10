@@ -1,5 +1,5 @@
 class Server {
-    val myId = 10.0
+    var myId = 10.0
 
     companion object{
         private var INSTANCE:Server? = null
@@ -16,7 +16,7 @@ class Server {
 
     }
 
-    fun printServer(){
-        println("Server: "+myId)
+    fun printServer():String{
+        return "${myId}"
     }
 }
