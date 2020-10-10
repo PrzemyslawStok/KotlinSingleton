@@ -17,4 +17,12 @@ fun main(){
 
     println(students)
     println(Student.id)
+
+    var number : Double? = null
+
+    //number = 5.0
+    //number = 10.0
+
+    var no1 = 10.0
+    number = no1
 }
