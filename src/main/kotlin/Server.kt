@@ -1,5 +1,6 @@
 class Server {
     var myId = 10.0
+    var processorType = "core i7"
 
     companion object{
         private var INSTANCE:Server? = null
@@ -17,6 +18,6 @@ class Server {
     }
 
     fun printServer():String{
-        return "${myId}"
+        return "${myId} processor ${processorType}"
     }
 }

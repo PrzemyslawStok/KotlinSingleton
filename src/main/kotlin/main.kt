@@ -1,4 +1,6 @@
 fun main(){
+    val AdminRoom = AdminRoom()
+
     val classrom42 = ClassRoom(42)
     val classrom41 = ClassRoom(41)
 
